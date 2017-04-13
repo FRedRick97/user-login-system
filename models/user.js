@@ -1,9 +1,5 @@
-const 
-    mongoose = require('mongoose'),
-    bcrypt = require('bcryptjs');
-
-mongoose.connect('mongodb://localhost:27017/test');
-// var db = mongoose.connection;
+const bcrypt = require('bcryptjs');
+var {mongoose} = require('./db/mongoose.js');
 
 // User Schema
 
