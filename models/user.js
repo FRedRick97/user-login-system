@@ -1,5 +1,5 @@
 const bcrypt = require('bcryptjs');
-var {mongoose} = require('./db/mongoose.js');
+var {mongoose} = require('../db/mongoose.js');
 
 // User Schema
 
